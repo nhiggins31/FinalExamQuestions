@@ -15,4 +15,23 @@ public class Rectangle extends Shape {
 		return this.getX() * this.getY();
 	}
 
-}
+	
+	
+	
+	
+	   public void Rectangle(int newx, int newy) throws IllegalRectangleException
+	   {
+		   	if( newx < 0)
+		   	{
+			if (newy < 0)
+			{
+			}
+			throw new IllegalRectangleException(newx, newy);
+
+			   
+			public double getBalance()
+			{
+				return newx, newy;
+			  }
+		   }
+

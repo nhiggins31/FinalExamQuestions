@@ -6,7 +6,8 @@ import java.util.Date;
 /*
  * comment
  */
-public abstract class Person {
+public abstract class Person extends iPersonRead {
+public abstract class Person extends iPersonWrite {
 
 	private Date DOB;
 	private String FirstName;
@@ -135,4 +136,6 @@ public abstract class Person {
 		return age;
 
 	}
+}
+}
 }
